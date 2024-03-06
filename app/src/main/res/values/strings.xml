@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">SummerizeMate</string>
+    <string name="logo_text">SummerizeMate</string>
+    <string name="skip_txt">Skip</string>
+    <string name="welcome_to_">Welcome to SummarizeMate!</string>
+    <string name="summarizema">
+SummarizeMate is here to make your reading experience easier and more efficient.
+</string>
+    <string name="next_btn_description">next btn</string>
+    <string name="save_and_share_topic">
+Save and Share
+</string>
+    <string name="save_share_content">
+Keep your summaries organized and accessible. Save them for later reference or share them with others effortlessly.
+</string>
+    <string name="summarize_with_ease_header">
+Summarize with Ease
+</string>
+    <string name="summarize_with_ease_content">
+Say goodbye to lengthy texts! SummarizeMate simplifies complex content into concise summaries. Just paste or type the text, and voil\u00c3\u00a0 \u00e2\u0080\u0093 instant summary at your fingertips!
+</string>
+    <string name="login_btn_txt">Log in</string>
+    <string name="Signup_btn_txt">Sign up</string>
+</resources>
