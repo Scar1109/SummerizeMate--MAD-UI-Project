@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, OnboardingScreen01::class.java))
             finish()
             overridePendingTransition(R.anim.fade_in, R.anim.fade_out)
-        }, 2000L)
+        }, 2500L)
 
     }
 }
