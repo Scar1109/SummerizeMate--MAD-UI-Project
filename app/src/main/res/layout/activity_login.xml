@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/primary_color"
     tools:context=".modules.LoginScreenActivity">
 
     <ImageView
@@ -90,21 +91,19 @@
             android:layout_marginBottom="10dp"
             android:hint="@string/pwd_lable"
             android:textColorHint="@color/gray_400"
-            app:boxStrokeColor="@color/secondary_color"
-            app:endIconMode="password_toggle"
-            app:endIconTint="@color/gray_400"
             app:boxCornerRadiusBottomEnd="8dp"
             app:boxCornerRadiusBottomStart="8dp"
             app:boxCornerRadiusTopEnd="8dp"
             app:boxCornerRadiusTopStart="8dp"
-            tools:ignore="ExtraText"
-            >
+            app:boxStrokeColor="@color/secondary_color"
+            app:endIconMode="password_toggle"
+            app:endIconTint="@color/gray_400"
+            tools:ignore="ExtraText">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textPassword"
-                />
+                android:inputType="textPassword" />
 
         </com.google.android.material.textfield.TextInputLayout>
 

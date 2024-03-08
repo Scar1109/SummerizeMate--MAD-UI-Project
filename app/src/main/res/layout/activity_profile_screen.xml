@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/primary_color"
-    tools:context=".modules.RecentScreenActivity">
+    tools:context=".modules.ProfileScreenActivity">
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"
@@ -27,5 +27,4 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
         app:menu="@menu/bottom_navigation_menu" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

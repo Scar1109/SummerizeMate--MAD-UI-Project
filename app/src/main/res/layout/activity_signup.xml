@@ -81,14 +81,15 @@
             android:id="@+id/inputEmail_signup"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
+            android:background="@color/primary_color"
             android:hint="@string/email_lable"
             android:inputType="textEmailAddress"
             android:textColorHint="@color/gray_400"
-            app:boxStrokeColor="@color/secondary_color"
             app:boxCornerRadiusBottomEnd="8dp"
             app:boxCornerRadiusBottomStart="8dp"
             app:boxCornerRadiusTopEnd="8dp"
-            app:boxCornerRadiusTopStart="8dp">
+            app:boxCornerRadiusTopStart="8dp"
+            app:boxStrokeColor="@color/secondary_color">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
