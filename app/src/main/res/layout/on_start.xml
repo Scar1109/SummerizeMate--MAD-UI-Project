@@ -54,8 +54,8 @@
 
         <Button
             android:id="@+id/login_btn"
-            android:layout_width="327dp"
-            android:layout_height="54dp"
+            android:layout_width="350dp"
+            android:layout_height="55dp"
             android:layout_marginBottom="32dp"
             android:backgroundTint="@color/secondary_color"
             android:text="@string/login_btn_txt"
@@ -63,8 +63,8 @@
 
         <Button
             android:id="@+id/signup_btn"
-            android:layout_width="327dp"
-            android:layout_height="54dp"
+            android:layout_width="350dp"
+            android:layout_height="55dp"
             android:backgroundTint="@color/secondary_color"
             android:text="@string/Signup_btn_txt"
             android:textSize="16sp" />

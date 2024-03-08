@@ -30,4 +30,28 @@ Say goodbye to lengthy texts! SummarizeMate simplifies complex content into conc
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
+    <string name="email_lable">Email</string>
+    <string name="pwd_lable">Password</string>
+    <string name="forgot_pass">
+Forgot password?
+</string>
+    <string name="welcome_bac">
+Welcome Back
+</string>
+    <string name="create_a_ne">
+Create a new account
+</string>
+    <string name="login_to_ac">
+Login to access your account
+</string>
+    <string name="title_login">
+Log in
+</string>
+    <string name="by_continui">
+By continuing, you agree to our Terms of Service and Privacy Policy.
+</string>
+    <string name="don_t_have_">
+    Don\'t have an account?
+</string>
+    <string name="title_signup">Sign Up</string>
 </resources>

@@ -19,10 +19,6 @@
             android:name=".modules.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.login.LoginActivity"
-            android:exported="false"
-            android:label="@string/title_activity_login" />
-        <activity
             android:name=".modules.OnStartActivity"
             android:exported="false" />
         <activity
