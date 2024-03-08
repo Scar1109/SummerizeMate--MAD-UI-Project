@@ -9,7 +9,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 class RecentScreenActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_recent_page)
+        setContentView(R.layout.activity_recent_screen)
 
         val bottom_navigation : BottomNavigationView = findViewById(R.id.bottom_navigation)
 

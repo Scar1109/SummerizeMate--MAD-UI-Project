@@ -9,7 +9,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 class SavedScreenActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_saved_page)
+        setContentView(R.layout.activity_saved_screen)
 
         val bottom_navigation : BottomNavigationView = findViewById(R.id.bottom_navigation)
 

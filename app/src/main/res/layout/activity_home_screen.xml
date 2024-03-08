@@ -39,6 +39,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/greeting_morning"
+                    android:textAlignment="textStart"
                     android:textSize="32sp"
                     android:textStyle="bold" />
 
@@ -46,19 +47,17 @@
                     android:id="@+id/date"
                     android:layout_width="199dp"
                     android:layout_height="16dp"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentTop="true"
                     android:gravity="top"
-                    android:lineSpacingExtra="-3sp"
+                    android:paddingLeft="10dp"
                     android:text="Monday, January 25, 2021"
                     android:textAlignment="viewStart" />
             </LinearLayout>
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/time_img"
                 android:layout_width="104dp"
                 android:layout_height="96dp"
-                android:layout_marginLeft="20dp"
+                android:layout_marginLeft="30dp"
                 app:srcCompat="@drawable/sun_icon" />
         </LinearLayout>
 

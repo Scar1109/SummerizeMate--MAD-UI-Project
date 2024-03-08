@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.landing_page)
+        setContentView(R.layout.landing_screen)
 
         handler.postDelayed({
             startActivity(Intent(this, OnboardingScreen01::class.java))
