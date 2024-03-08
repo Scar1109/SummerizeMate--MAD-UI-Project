@@ -82,6 +82,7 @@
             android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:hint="@string/email_lable"
+            android:inputType="textEmailAddress"
             android:textColorHint="@color/gray_400"
             app:boxStrokeColor="@color/secondary_color"
             app:boxCornerRadiusBottomEnd="8dp"
