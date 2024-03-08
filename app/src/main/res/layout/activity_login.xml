@@ -7,7 +7,7 @@
     tools:context=".modules.LoginActivity">
 
     <ImageView
-        android:id="@+id/back_btn"
+        android:id="@+id/back_btn_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
@@ -67,7 +67,13 @@
             android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:hint="@string/email_lable"
-            app:boxStrokeColor="@color/secondary_color">
+            android:textColorHint="@color/gray_400"
+            app:boxCornerRadiusBottomEnd="8dp"
+            app:boxCornerRadiusBottomStart="8dp"
+            app:boxCornerRadiusTopEnd="8dp"
+            app:boxCornerRadiusTopStart="8dp"
+            app:boxStrokeColor="@color/secondary_color"
+            app:hintEnabled="true">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -82,13 +88,22 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:hint="@string/pwd_lable"
+            android:textColorHint="@color/gray_400"
             app:boxStrokeColor="@color/secondary_color"
-            app:endIconMode="password_toggle">>
+            app:endIconMode="password_toggle"
+            app:endIconTint="@color/gray_400"
+            app:boxCornerRadiusBottomEnd="8dp"
+            app:boxCornerRadiusBottomStart="8dp"
+            app:boxCornerRadiusTopEnd="8dp"
+            app:boxCornerRadiusTopStart="8dp"
+            tools:ignore="ExtraText"
+            >
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textPassword"/>
+                android:inputType="textPassword"
+                />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -97,7 +112,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/forgot_pass"
-            android:textAppearance="@style/forgot_pass" />
+            android:textAppearance="@style/forgot_pass"
+            android:textColor="@color/secondary_color"
+            android:textSize="16sp" />
 
     </LinearLayout>
 
@@ -137,20 +154,20 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/by_continui"
-        android:layout_width="259dp"
-        android:layout_height="39dp"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
         android:gravity="bottom|center"
         android:lineSpacingExtra="1sp"
         android:text="@string/by_continui"
         android:textAppearance="@style/by_continui"
+        android:textSize="14sp"
         android:translationY="0.74sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.559"
+        app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.938" />
+        app:layout_constraintVertical_bias="0.941" />
 
     <LinearLayout
         android:layout_width="0dp"
@@ -171,6 +188,7 @@
             android:textSize="16sp" />
 
         <TextView
+            android:id="@+id/toSignup_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"

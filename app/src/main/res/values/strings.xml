@@ -1,57 +1,108 @@
 <resources>
-    <string name="app_name">SummerizeMate</string>
-    <string name="logo_text">SummerizeMate</string>
-    <string name="skip_txt">Skip</string>
-    <string name="welcome_to_">Welcome to SummarizeMate!</string>
+	<string name="app_name">
+		SummerizeMate
+	</string>
+    <string name="logo_text">
+		SummerizeMate
+	</string>
+    <string name="skip_txt">
+		Skip
+	</string>
+    <string name="welcome_to_">
+		Welcome to SummarizeMate!
+	</string>
     <string name="summarizema">
-SummarizeMate is here to make your reading experience easier and more efficient.
-</string>
-    <string name="next_btn_description">next btn</string>
+		SummarizeMate is here to make your reading experience easier and more efficient.
+	</string>
+    <string name="next_btn_description">
+		next btn
+	</string>
     <string name="save_and_share_topic">
-Save and Share
-</string>
+		Save and Share
+	</string>
     <string name="save_share_content">
-Keep your summaries organized and accessible. Save them for later reference or share them with others effortlessly.
-</string>
+		Keep your summaries organized and accessible. Save them for later reference or share them with others effortlessly.
+	</string>
     <string name="summarize_with_ease_header">
-Summarize with Ease
-</string>
+		Summarize with Ease
+	</string>
     <string name="summarize_with_ease_content">
-Say goodbye to lengthy texts! SummarizeMate simplifies complex content into concise summaries. Just paste or type the text, and voil\u00c3\u00a0 \u00e2\u0080\u0093 instant summary at your fingertips!
-</string>
-    <string name="login_btn_txt">Log in</string>
-    <string name="Signup_btn_txt">Sign up</string>
-    <string name="title_activity_login">LoginActivity</string>
-    <string name="prompt_email">Email</string>
-    <string name="prompt_password">Password</string>
-    <string name="action_sign_in">Sign in or register</string>
-    <string name="action_sign_in_short">Sign in</string>
-    <string name="welcome">"Welcome !"</string>
-    <string name="invalid_username">Not a valid username</string>
-    <string name="invalid_password">Password must be >5 characters</string>
-    <string name="login_failed">"Login failed"</string>
-    <string name="email_lable">Email</string>
-    <string name="pwd_lable">Password</string>
+		Say goodbye to lengthy texts! SummarizeMate simplifies complex content into concise summaries. Just paste or type the text, and voil\u00c3\u00a0 \u00e2\u0080\u0093 instant summary at your fingertips!
+	</string>
+    <string name="login_btn_txt">
+		Log in
+	</string>
+    <string name="Signup_btn_txt">
+		Sign up
+	</string>
+    <string name="title_activity_login">
+		LoginActivity
+	</string>
+    <string name="prompt_email">
+		Email
+	</string>
+    <string name="prompt_password">
+		Password
+	</string>
+    <string name="action_sign_in">
+		Sign in or register
+	</string>
+    <string name="action_sign_in_short">
+		Sign in
+	</string>
+    <string name="welcome">
+		"Welcome !"
+	</string>
+    <string name="invalid_username">
+		Not a valid username
+	</string>
+    <string name="invalid_password">
+		Password must be >5 characters
+	</string>
+    <string name="login_failed">
+		"Login failed"
+	</string>
+    <string name="email_lable">
+		Email
+	</string>
+    <string name="pwd_lable">
+		Password
+	</string>
     <string name="forgot_pass">
-Forgot password?
-</string>
+		Forgot password?
+	</string>
     <string name="welcome_bac">
-Welcome Back
-</string>
+		Welcome Back
+	</string>
     <string name="create_a_ne">
-Create a new account
-</string>
+		Create a new account
+	</string>
     <string name="login_to_ac">
-Login to access your account
-</string>
+		Login to access your account
+	</string>
     <string name="title_login">
-Log in
-</string>
+		Log in
+	</string>
     <string name="by_continui">
-By continuing, you agree to our Terms of Service and Privacy Policy.
-</string>
+		By continuing, you agree to our Terms of Service and Privacy Policy.
+	</string>
     <string name="don_t_have_">
-    Don\'t have an account?
-</string>
-    <string name="title_signup">Sign Up</string>
+		Don\'t have an account?
+	</string>
+    <string name="title_signup">
+		Sign Up
+	</string>
+    <string name="input_name_lable">
+		Name
+	</string>
+    <string name="conf_pwd_lable">
+		Conform Password
+	</string>
+    <string name="signup_text">
+		Create a new account
+	</string>
+    <string name="title_signin">
+		Sign In
+	</string>
+    <string name="already_have_acc">Already have an account?</string>
 </resources>

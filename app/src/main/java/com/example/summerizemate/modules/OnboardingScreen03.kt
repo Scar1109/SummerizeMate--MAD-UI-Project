@@ -18,13 +18,13 @@ class OnboardingScreen03 : AppCompatActivity() {
         onboardingbtn03.setOnClickListener{
             val intent1 = Intent(this, OnStartActivity::class.java)
             startActivity(intent1)
-            overridePendingTransition(R.anim.fade_in, R.anim.fade_out)
+            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
         }
 
         skipbtn03.setOnClickListener{
             val intent2 = Intent( this, OnStartActivity::class.java)
             startActivity(intent2)
-            overridePendingTransition(R.anim.fade_in, R.anim.fade_out)
+            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
         }
     }
 
