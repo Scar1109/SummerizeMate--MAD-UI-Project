@@ -16,13 +16,13 @@ class OnboardingScreen03 : AppCompatActivity() {
         val skipbtn03 : TextView = findViewById(R.id.skipText03)
 
         onboardingbtn03.setOnClickListener{
-            val intent1 = Intent(this, OnStartActivity::class.java)
+            val intent1 = Intent(this, OnStartScreenActivity::class.java)
             startActivity(intent1)
             overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
         }
 
         skipbtn03.setOnClickListener{
-            val intent2 = Intent( this, OnStartActivity::class.java)
+            val intent2 = Intent( this, OnStartScreenActivity::class.java)
             startActivity(intent2)
             overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
         }

@@ -13,13 +13,22 @@
         android:theme="@style/Theme.SummerizeMate"
         tools:targetApi="31">
         <activity
-            android:name=".modules.SignupActivity"
+            android:name=".modules.SavedScreenActivity"
             android:exported="false" />
         <activity
-            android:name=".modules.LoginActivity"
+            android:name=".modules.RecentScreenActivity"
             android:exported="false" />
         <activity
-            android:name=".modules.OnStartActivity"
+            android:name=".modules.HomeScreenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".modules.SignupScreenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".modules.LoginScreenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".modules.OnStartScreenActivity"
             android:exported="false" />
         <activity
             android:name=".modules.OnboardingScreen03"

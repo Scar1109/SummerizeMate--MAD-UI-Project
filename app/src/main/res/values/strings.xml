@@ -105,4 +105,11 @@
 		Sign In
 	</string>
     <string name="already_have_acc">Already have an account?</string>
+    <string name="summery_hint">Enter or past your text here</string>
+    <string name="lonng">Long</string>
+    <string name="short_txt">Short</string>
+	<string name="summery_btn_txt">Summarize</string>
+	<string name="past_btn_txt">Paste</string>
+	<string name="min_value">min 200 words</string>
+	<string name="greeting_morning">Good morning</string>
 </resources>

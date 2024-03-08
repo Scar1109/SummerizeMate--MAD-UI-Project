@@ -6,11 +6,10 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
-import android.widget.Toast
 import com.example.summerizemate.R
 import com.google.android.material.textfield.TextInputLayout
 
-class LoginActivity : AppCompatActivity() {
+class LoginScreenActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
@@ -24,7 +23,7 @@ class LoginActivity : AppCompatActivity() {
 
 
         toSignup.setOnClickListener{
-            val intent1 = Intent(this, SignupActivity::class.java)
+            val intent1 = Intent(this, SignupScreenActivity::class.java)
             startActivity(intent1)
         }
 
@@ -33,7 +32,8 @@ class LoginActivity : AppCompatActivity() {
         }
 
         loginpage_btn.setOnClickListener{
-            Toast.makeText(this, "Hello, ${inputEmail.editText?.text.toString()}, ${inputPwd.editText?.text.toString()}", Toast.LENGTH_LONG).show()
+            val intent2 = Intent(this, HomeScreenActivity::class.java)
+            startActivity(intent2)
         }
 
 

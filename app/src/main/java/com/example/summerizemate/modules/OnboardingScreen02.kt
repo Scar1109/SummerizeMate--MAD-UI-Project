@@ -22,7 +22,7 @@ class OnboardingScreen02 : AppCompatActivity() {
         }
 
         skipbtn02.setOnClickListener{
-            val intent2 = Intent( this, OnStartActivity::class.java)
+            val intent2 = Intent( this, OnStartScreenActivity::class.java)
             startActivity(intent2)
             overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
         }
