@@ -4,4 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".modules.LoginActivity"/>
+    tools:context=".modules.LoginActivity">
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="67dp"
+        android:background="@null"
+        tools:layout_editor_absoluteY="257dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
