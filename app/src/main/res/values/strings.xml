@@ -118,4 +118,8 @@
     <string name="save_summery_txt">Save Summary</string>
 	<string name="cancel_btn_text">Cancel</string>
     <string name="description_hint_txt">Description (Optional)</string>
+    <string name="recent_summery_txt">Recent Summaries</string>
+	<string name="clear_all_txt" >Clear All</string>
+    <string name="no_summery_title">No Recent Summaries</string>
+    <string name="empty_summery_text">Tap summarize button for navigate to summarization page</string>
 </resources>
