@@ -116,14 +116,17 @@
     <string name="result_title_txt">Summarize Result</string>
     <string name="save_btn_txt">Save</string>
     <string name="save_summery_txt">Save Summary</string>
-	<string name="cancel_btn_text">Cancel</string>
+    <string name="cancel_btn_text">Cancel</string>
     <string name="description_hint_txt">Description (Optional)</string>
     <string name="recent_summery_txt">Recent Summaries</string>
-	<string name="clear_all_txt" >Clear All</string>
+    <string name="clear_all_txt">Clear All</string>
     <string name="no_summery_title">No Recent Summaries</string>
     <string name="empty_summery_text">Tap summarize button for navigate to summarization page</string>
     <string name="save_card_date">Date : 23/12/2024</string>
     <string name="save_description_txt">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo con</string>
     <string name="saved_summey_title">Saved Summaries</string>
     <string name="summery_topic">Summarization 01</string>
+    <string name="remove_btn_txt">Remove Item</string>
+    <string name="remove_itm_title">Remove item?</string>
+    <string name="remove_itm_description">Are you sure want to remove this item?</string>
 </resources>

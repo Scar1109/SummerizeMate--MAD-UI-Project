@@ -11,7 +11,7 @@ import android.widget.EditText
 import android.widget.ImageView
 import android.widget.Toast
 import com.example.summerizemate.R
-import com.example.summerizemate.modelsheets.resultModelSheet
+import com.example.summerizemate.modelsheets.saveConformationModel
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class ResultScreenActivity : AppCompatActivity() {
@@ -40,9 +40,9 @@ class ResultScreenActivity : AppCompatActivity() {
         }
 
         saveButton.setOnClickListener {
-            val resultModel = resultModelSheet()
+            val resultModel = saveConformationModel()
 
-            resultModel.show(supportFragmentManager, resultModelSheet.TAG)
+            resultModel.show(supportFragmentManager, saveConformationModel.TAG)
         }
 
         result_view.setText(summery)

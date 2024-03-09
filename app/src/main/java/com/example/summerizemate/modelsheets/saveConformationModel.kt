@@ -8,7 +8,7 @@ import android.widget.Button
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.example.summerizemate.R
 
-class resultModelSheet : BottomSheetDialogFragment() {
+class saveConformationModel : BottomSheetDialogFragment() {
 
     companion object {
         const val TAG = "ResultModelSheet"
