@@ -45,10 +45,10 @@
 
                 <TextView
                     android:id="@+id/date"
-                    android:layout_width="199dp"
-                    android:layout_height="16dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:gravity="top"
-                    android:paddingLeft="10dp"
+                    android:paddingLeft="0dp"
                     android:text="Monday, January 25, 2021"
                     android:textAlignment="viewStart" />
             </LinearLayout>
@@ -58,7 +58,7 @@
                 android:layout_width="104dp"
                 android:layout_height="96dp"
                 android:layout_marginLeft="30dp"
-                app:srcCompat="@drawable/sun_icon" />
+                app:srcCompat="@drawable/evenining_sun" />
         </LinearLayout>
 
         <com.google.android.material.slider.Slider

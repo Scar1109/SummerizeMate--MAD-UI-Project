@@ -41,12 +41,11 @@ class HomeScreenActivity : AppCompatActivity() {
         val formattedDate = dateFormat.format(currentTime.time)
         date.text = formattedDate
 
-        val imageResId = if (currentHour in 6..17) {
-            // Daytime, show sun image
-            R.drawable.sun_icon
-        } else {
-            // Nighttime, show moon image
-            R.drawable.moon_icon
+        val imageResId = when {
+            currentHour in 4..9 -> R.drawable.morining_sun
+            currentHour in 10..15 -> R.drawable.noon_sun
+            currentHour in 16 .. 17 -> R.drawable.evenining_sun
+            else -> R.drawable.night_moon
         }
 
         time_img.setImageResource(imageResId)
