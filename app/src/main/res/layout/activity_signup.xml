@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/primary_color"
     tools:context=".modules.SignupScreenActivity">
 
     <TextView
@@ -106,16 +107,16 @@
             android:layout_height="wrap_content"
             android:hint="@string/input_name_lable"
             android:textColorHint="@color/gray_400"
-            app:boxStrokeColor="@color/secondary_color"
             app:boxCornerRadiusBottomEnd="8dp"
             app:boxCornerRadiusBottomStart="8dp"
             app:boxCornerRadiusTopEnd="8dp"
-            app:boxCornerRadiusTopStart="8dp">
+            app:boxCornerRadiusTopStart="8dp"
+            app:boxStrokeColor="@color/secondary_color">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"/>
+                android:layout_marginBottom="10dp" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -126,11 +127,11 @@
             android:layout_marginBottom="10dp"
             android:hint="@string/pwd_lable"
             android:textColorHint="@color/gray_400"
-            app:boxStrokeColor="@color/secondary_color"
             app:boxCornerRadiusBottomEnd="8dp"
             app:boxCornerRadiusBottomStart="8dp"
             app:boxCornerRadiusTopEnd="8dp"
-            app:boxCornerRadiusTopStart="8dp">
+            app:boxCornerRadiusTopStart="8dp"
+            app:boxStrokeColor="@color/secondary_color">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -146,11 +147,11 @@
             android:layout_marginBottom="10dp"
             android:hint="@string/conf_pwd_lable"
             android:textColorHint="@color/gray_400"
-            app:boxStrokeColor="@color/secondary_color"
             app:boxCornerRadiusBottomEnd="8dp"
             app:boxCornerRadiusBottomStart="8dp"
             app:boxCornerRadiusTopEnd="8dp"
-            app:boxCornerRadiusTopStart="8dp">
+            app:boxCornerRadiusTopStart="8dp"
+            app:boxStrokeColor="@color/secondary_color">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"

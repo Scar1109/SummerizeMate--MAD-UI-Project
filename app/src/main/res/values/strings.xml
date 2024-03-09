@@ -122,4 +122,8 @@
 	<string name="clear_all_txt" >Clear All</string>
     <string name="no_summery_title">No Recent Summaries</string>
     <string name="empty_summery_text">Tap summarize button for navigate to summarization page</string>
+    <string name="save_card_date">Date : 23/12/2024</string>
+    <string name="save_description_txt">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo con</string>
+    <string name="saved_summey_title">Saved Summaries</string>
+    <string name="summery_topic">Summarization 01</string>
 </resources>
