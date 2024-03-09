@@ -108,8 +108,11 @@
     <string name="summery_hint">Enter or past your text here</string>
     <string name="lonng">Long</string>
     <string name="short_txt">Short</string>
-	<string name="summery_btn_txt">Summarize</string>
-	<string name="past_btn_txt">Paste</string>
-	<string name="min_value">min 200 words</string>
-	<string name="greeting_morning">Good morning</string>
+    <string name="summery_btn_txt">Summarize</string>
+    <string name="past_btn_txt">Paste</string>
+    <string name="min_value">min 200 words</string>
+    <string name="greeting_morning">Good morning</string>
+    <string name="sample_result">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatu Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatu Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatu</string>
+    <string name="result_title_txt">Summarize Result</string>
+    <string name="save_btn_txt">Save</string>
 </resources>

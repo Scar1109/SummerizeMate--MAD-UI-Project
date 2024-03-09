@@ -3,6 +3,7 @@ package com.example.summerizemate.modules
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
@@ -23,6 +24,7 @@ class HomeScreenActivity : AppCompatActivity() {
         val greeting : TextView = findViewById(R.id.greeting)
         val date : TextView = findViewById(R.id.date)
         val time_img : ImageView = findViewById(R.id.time_img)
+        val summey_btn : Button = findViewById(R.id.summey_btn)
 
         val currentTime = Calendar.getInstance()
         val currentHour = currentTime.get(Calendar.HOUR_OF_DAY)
@@ -49,7 +51,10 @@ class HomeScreenActivity : AppCompatActivity() {
 
         time_img.setImageResource(imageResId)
 
-
+        summey_btn.setOnClickListener{
+            val intent = Intent(this, ResultScreenActivity::class.java)
+            startActivity(intent)
+        }
 
         bottom_navigation.selectedItemId = R.id.page_1
 
