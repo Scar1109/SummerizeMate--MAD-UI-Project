@@ -135,7 +135,7 @@
 	<string name="summrized_txt">More than one million people in the United States got on planes on Wednesday. The Centers for Disease Control and Prevention urged Americans to stay home for Thanksgiving. Nearly three million additional people have flown in the days since. The high number of travelers speaks to a sense of pandemic fatigue that many are experiencing.c A day after the Centers for Disease Control and Prevention urged Americans to stay home for Thanksgiving, more than one million people in the United States got on planes, marking the second day that more than a million people have flown since March. Nearly three million additional people have flown in the days since.
 
 The high number of travelers speaks to a sense of pandemic fatigue that many people are experiencing. For some, the desire to see family is worth the risk of potentially getting the coronavirus while traveling.</string>
-	<string name="org_txt" >A day after the Centers for Disease Control and Prevention urged Americans to stay home for Thanksgiving, more than one million people in the United States got on planes, marking the second day that more than a million people have flown since March. Nearly three million additional people have flown in the days since.
+	<string name="org_txt">A day after the Centers for Disease Control and Prevention urged Americans to stay home for Thanksgiving, more than one million people in the United States got on planes, marking the second day that more than a million people have flown since March. Nearly three million additional people have flown in the days since.
 
 The high number of travelers speaks to a sense of pandemic fatigue that many people are experiencing. For some, the desire to see family is worth the risk of potentially getting the coronavirus while traveling.
 
@@ -143,4 +143,9 @@ The high number of travelers speaks to a sense of pandemic fatigue that many peo
 
 The high number of travelers speaks to a sense of pandemic fatigue that many people are experiencing. For some, the desire to see family is worth the risk of potentially getting the coronavirus while traveling.</string>
 	<string name="org_title">Original</string>
+	<string name="chang_pwd_txt">Change Password</string>
+	<string name="update_profile_txt">Update Profile</string>
+	<string name="sample_name">Kaveen Dinethma</string>
+	<string name="sample_email">kaveen.dinethma@gmail.com</string>
+	<string name="save_changes_btn">Save Changes</string>
 </resources>
