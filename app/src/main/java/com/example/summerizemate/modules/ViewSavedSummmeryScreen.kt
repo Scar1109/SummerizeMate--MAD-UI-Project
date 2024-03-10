@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
 import com.example.summerizemate.R
+import com.example.summerizemate.modelsheets.savedSummeryDeleteModel
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class ViewSavedSummmeryScreen : AppCompatActivity() {
@@ -14,8 +15,16 @@ class ViewSavedSummmeryScreen : AppCompatActivity() {
 
         val back_btn_saved_view : ImageView = findViewById(R.id.back_btn_saved_view)
         val bottom_navigation : BottomNavigationView = findViewById(R.id.bottom_navigation)
+        val delete_summery_btn : ImageView = findViewById(R.id.delete_summery_btn)
+        val edit_summery_btn : ImageView = findViewById(R.id.edit_summery_btn)
 
         bottom_navigation.selectedItemId = R.id.page_3
+
+        delete_summery_btn.setOnClickListener{
+            val conformDeleteModel = savedSummeryDeleteModel()
+
+            conformDeleteModel.show(supportFragmentManager, savedSummeryDeleteModel.TAG)
+        }
 
         back_btn_saved_view.setOnClickListener{
             finish()

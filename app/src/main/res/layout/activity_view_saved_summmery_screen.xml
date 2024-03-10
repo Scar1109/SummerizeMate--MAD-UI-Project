@@ -37,14 +37,14 @@
                     android:textStyle="bold" />
 
                 <ImageView
-                    android:id="@+id/imageView5"
+                    android:id="@+id/delete_summery_btn"
                     android:layout_width="5dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     app:srcCompat="@drawable/bx_delete" />
 
                 <ImageView
-                    android:id="@+id/imageView6"
+                    android:id="@+id/edit_summery_btn"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_marginStart="2dp"
