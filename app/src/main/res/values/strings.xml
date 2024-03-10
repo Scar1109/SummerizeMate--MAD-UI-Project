@@ -148,4 +148,8 @@ The high number of travelers speaks to a sense of pandemic fatigue that many peo
 	<string name="sample_name">Kaveen Dinethma</string>
 	<string name="sample_email">kaveen.dinethma@gmail.com</string>
 	<string name="save_changes_btn">Save Changes</string>
+	<string name="old_pwd_txt">old password</string>
+	<string name="new_pwd_txt">new password</string>
+	<string name="conform_password_txt">conform password</string>
+	<string name="change_pwd_btn">Change Password</string>
 </resources>

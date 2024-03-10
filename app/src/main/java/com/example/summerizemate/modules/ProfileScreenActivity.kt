@@ -3,8 +3,11 @@ package com.example.summerizemate.modules
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import android.widget.ImageView
 import com.example.summerizemate.R
+import com.example.summerizemate.modelsheets.editPasswordModel
+import com.example.summerizemate.modelsheets.editProfileModel
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class ProfileScreenActivity : AppCompatActivity() {
@@ -14,6 +17,20 @@ class ProfileScreenActivity : AppCompatActivity() {
 
         val bottom_navigation : BottomNavigationView = findViewById(R.id.bottom_navigation)
         val logout_btn : ImageView = findViewById(R.id.logout_btn)
+        val edit_profile_btn : Button = findViewById(R.id.edit_profile_btn)
+        val change_pwd_btn : Button = findViewById(R.id.change_pwd_btn)
+
+        change_pwd_btn.setOnClickListener {
+            val editPwd = editPasswordModel()
+
+            editPwd.show(supportFragmentManager,editPasswordModel.TAG)
+        }
+
+        edit_profile_btn.setOnClickListener {
+            val editProfile = editProfileModel()
+
+            editProfile.show(supportFragmentManager,editProfileModel.TAG)
+        }
 
         logout_btn.setOnClickListener{
             val intent = Intent(this, OnStartScreenActivity::class.java)
