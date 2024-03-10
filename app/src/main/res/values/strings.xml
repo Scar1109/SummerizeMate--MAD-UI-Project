@@ -129,4 +129,18 @@
     <string name="remove_btn_txt">Remove Item</string>
     <string name="remove_itm_title">Remove item?</string>
     <string name="remove_itm_description">Are you sure want to remove this item?</string>
+    <string name="description_txt">Description</string>
+	<string name="description_contnt">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore "</string>
+	<string name="summery_txt">Summery</string>
+	<string name="summrized_txt">More than one million people in the United States got on planes on Wednesday. The Centers for Disease Control and Prevention urged Americans to stay home for Thanksgiving. Nearly three million additional people have flown in the days since. The high number of travelers speaks to a sense of pandemic fatigue that many are experiencing.c A day after the Centers for Disease Control and Prevention urged Americans to stay home for Thanksgiving, more than one million people in the United States got on planes, marking the second day that more than a million people have flown since March. Nearly three million additional people have flown in the days since.
+
+The high number of travelers speaks to a sense of pandemic fatigue that many people are experiencing. For some, the desire to see family is worth the risk of potentially getting the coronavirus while traveling.</string>
+	<string name="org_txt" >A day after the Centers for Disease Control and Prevention urged Americans to stay home for Thanksgiving, more than one million people in the United States got on planes, marking the second day that more than a million people have flown since March. Nearly three million additional people have flown in the days since.
+
+The high number of travelers speaks to a sense of pandemic fatigue that many people are experiencing. For some, the desire to see family is worth the risk of potentially getting the coronavirus while traveling.
+
+	A day after the Centers for Disease Control and Prevention urged Americans to stay home for Thanksgiving, more than one million people in the United States got on planes, marking the second day that more than a million people have flown since March. Nearly three million additional people have flown in the days since.
+
+The high number of travelers speaks to a sense of pandemic fatigue that many people are experiencing. For some, the desire to see family is worth the risk of potentially getting the coronavirus while traveling.</string>
+	<string name="org_title">Original</string>
 </resources>
