@@ -3,6 +3,7 @@ package com.example.summerizemate.modules
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import com.example.summerizemate.R
@@ -14,6 +15,7 @@ class SignupScreenActivity : AppCompatActivity() {
 
         val toSignin : TextView = findViewById(R.id.toSignin)
         val back_btn_sgnup : ImageView = findViewById((R.id.back_btn_sgnup))
+        val signuppage_btn : Button = findViewById(R.id.signuppage_btn)
 
         toSignin.setOnClickListener {
             val intent1 = Intent(this, LoginScreenActivity::class.java)
@@ -23,6 +25,11 @@ class SignupScreenActivity : AppCompatActivity() {
 
         back_btn_sgnup.setOnClickListener{
             finish()
+        }
+
+        signuppage_btn.setOnClickListener {
+            val intent = Intent(this,HomeScreenActivity::class.java)
+            startActivity(intent)
         }
     }
 }
